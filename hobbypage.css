@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    background-color: #f0eeee;
+    overflow-anchor: none;
+}
+
+.menubar {
+    align-items: center;
+    background-color: #ffffff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/* menu base styles  */
+
+header {
+    top: 0;
+    position: sticky;
+    background: #000000;
+    text-align: center;
+    z-index: 1;
+}
+
+#menu {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+#menu:hover {
+    background-color: #5f5f5f;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+/* ....... styles  */
+
+.landscape {
+    width: 100%;
+    height: auto;
+    filter: grayscale();
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    color: #ffffff;
+    text-shadow: 1px 1px 7px rgb(0, 0, 0);
+    white-space: nowrap;
+}
+
+.subtitle {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: #ffffff;
+    text-shadow: 1px 1px 7px rgb(0, 0, 0);
+    white-space: nowrap;
+}
+
+/* Wiiralt portrait */
+
+.portrait {
+    width: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: 80px 30px 30px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    filter: grayscale();
+
+}
+
+/* Text formatting */
+
+#link {
+    text-decoration: none;
+    font-style: italic;
+    color: #f57c7c;
+}
+
+#link:hover {
+    color: #c44b4b;
+}
+
+p {
+    text-align: center;
+    text-align: justify;
+    width: 60%;
+    display: block;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-last {
+    margin-bottom: 70px;
+}
+
+
+/* Gallery */
+
+.img-gallery {
+    width: auto;
+    height: 300px;
+    display: block;
+    margin: 10px;
+    background: #fff;
+    box-shadow: 0 0 10px rgb(192, 191, 191);
+    filter: grayscale();
+}
+
+.container {
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.clearfix:after {
+    /* why? */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* footer and time */
+
+footer .container {
+
+    background: #000000;
+    color: white;
+    letter-spacing: 3px;
+    padding: 5px;
+}
+
+
+.copyright {
+    font-size: 10px;
+    color: #bbbbbb;
+    text-align: center;
+}
+
+#current-date {
+    text-align: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width:800px) {
+
+    /* For tablets: */
+
+    a {
+        padding: 5px 30px;
+    }
+
+    ul li {
+        display: inline-block;
+        margin: 5px;
+        font-size: 15px;
+    }
+
+    .title {
+        font-size: 50px;
+        top: 30%;
+    }
+
+    .subtitle {
+        font-size: 15px;
+        top: 35%;
+    }
+
+
+    .portrait {
+        width: 200px;
+        margin: 60px 30px 30px 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    @media only screen and (max-width:500px) {
+
+        /* For mobile phones: */
+        /* For tablets: */
+
+        a {
+            padding: 5px 30px;
+        }
+
+        ul li {
+            display: inline-block;
+            margin: 5px;
+            font-size: 12px;
+        }
+
+        .title {
+            font-size: 30px;
+            top: 18%;
+        }
+
+        .subtitle {
+            font-size: 10px;
+            top: 22%;
+        }
+
+        .portrait {
+            width: 200px;
+            margin: 40px 30px 30px 30px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        p {
+            text-align: center;
+            text-align: justify;
+            width: 80%;
+        }
+
+
+    }
+}
