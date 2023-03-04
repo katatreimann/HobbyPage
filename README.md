@@ -27,7 +27,7 @@ Let me start by telling you about the requirements I had to follow:
 * The page has a header element, and a footer element.
 * Somewhere on the page, the user can see today’s date. The date should always be correct. You’ll need to use JavaScript to generate the date, and DOM manipulation to display it.
 
-#### Based on these requirements, I built my website. I put all my content on one page. See sample homepage in pictures below. 
+##### Based on these requirements, I built my website. I put all my content on one page. See sample homepage in pictures below. 
 
 ##### In the following, I will give you a brief overview of how I built my **HTML** file, where I stored all the content for this website:
 
