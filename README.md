@@ -27,7 +27,9 @@ Let me start by telling you about the requirements I had to follow:
 * The page has a header element, and a footer element.
 * Somewhere on the page, the user can see today’s date. The date should always be correct. You’ll need to use JavaScript to generate the date, and DOM manipulation to display it.
 
-Based on these requirements, I built my website. I put all my content on one page. To navigate the page, I used **sticky header(position: sticky;)** where I added a menu using the **list element`(<li>)`**. To get the menu button to work, I used the **HTML anchors**, also known as **`(<a>)`** element and **HTML links**. These anchors are intra-page targets for other links on that page. I link to them by putting the **ID(id="home")** in the **href(`<a href="#home"></a>`)** attribute of another link. They make it easy to navigate around the intra-page.
+Based on these requirements, I built my website. I put all my content on one page. See sample homepage in pictures below. 
+
+In the first section of the page, I have a heater, menu, title, and a photo of his art. To navigate the page, I used **sticky header(position: sticky;)** where I added a menu using the **list element`(<li>)`**. To get the menu button to work, I used the **HTML anchors**, also known as **`(<a>)`** element and **HTML links**. These anchors are intra-page targets for other links on that page. I link to them by putting the **ID(id="home")** in the **href(`<a href="#home"></a>`)** attribute of another link. They make it easy to navigate around the intra-page.
 
 
 
