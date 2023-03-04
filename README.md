@@ -28,3 +28,10 @@ Let me start by telling you about the requirements I had to follow:
 * Somewhere on the page, the user can see today’s date. The date should always be correct. You’ll need to use JavaScript to generate the date, and DOM manipulation to display it.
 
 ![image](https://user-images.githubusercontent.com/117119598/222925017-92e005e6-e020-4565-8363-e36336c28df6.png)
+
+
+
+---
+
+## References
+
