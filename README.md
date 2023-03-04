@@ -27,7 +27,7 @@ Let me start by telling you about the requirements I had to follow:
 * The page has a header element, and a footer element.
 * Somewhere on the page, the user can see today’s date. The date should always be correct. You’ll need to use JavaScript to generate the date, and DOM manipulation to display it.
 
-Based on these requirements, I built my website. I put all my content on one page. To navigate the page, I used **sticky header(position: sticky;)** where I added a menu using the **list element`(<li></li>)`**. 
+Based on these requirements, I built my website. I put all my content on one page. To navigate the page, I used **sticky header(position: sticky;)** where I added a menu using the **list element`(<li></li>)`**. To get the menu button to work, I used the **HTML anchor**, also known as **`(<a></a>)`** element.
 
 
 
