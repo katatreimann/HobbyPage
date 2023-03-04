@@ -29,9 +29,11 @@ Let me start by telling you about the requirements I had to follow:
 
 Based on these requirements, I built my website. I put all my content on one page. See sample homepage in pictures below. 
 
-In the first section of the page, called "Home", I have a heater, menu, title, and a photo of his art. To navigate the page, I used **sticky header(position: sticky;)** where I added a menu using the **list element`(<li>)`**. To get the menu button to work, I used the **HTML anchors**, also known as **`(<a>)`** element and **HTML links**. These anchors are intra-page targets for other links on that page. I link to them by putting the **ID(id="home")** in the **href(`<a href="#home"></a>`)** attribute of another link. They make it easy to navigate around the intra-page.
+In the first section of the page, called "Home", I have a heater, menu, title, and a photo of his art. To navigate the page, I used **sticky header(position: sticky;)** where I added a menu using the **list element`(<li>)`**. To get the menu button to work, I used the **HTML anchors**, also known as **`(<a>)`** element and **HTML links**. I used a **fragment identifier** also known as **id attribute(id="")**. I link to them by putting the **ID(id="home")** in the **href(`<a href="#home"></a>`)** attribute of another link. They make it easy to navigate around the **intra-page**.
 
-In the second section of the page,  called "About", I have a photo of the artist, and a short biography. I have also included a link to another website in this section, which was one of the requirements. I add picture with **image tag(`<img>`)**, usin a **external resource attribute(src="")** and **alternate text(alt="")**.
+In the second section of the page,  called "About", I have a photo of the artist, and a short biography. I have also included a link to another website in this section, which was one of the requirements. I add picture with **image tag(`<img>`)**, usin a **external resource attribute(src="")** and **alternate text(alt="")**. For the link I used again a `<a>` tag with a `href=""`attribute specifies the URL.
+
+In the third section of the page,  called "Gallery"
 
 
 ![image](https://user-images.githubusercontent.com/117119598/222925017-92e005e6-e020-4565-8363-e36336c28df6.png)
