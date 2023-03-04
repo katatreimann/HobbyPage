@@ -33,11 +33,11 @@ In the following, I will give you a brief overview of how I built my **HTML** fi
 
 - In the first section of the page, called "Home", I have a **header`(<header>)`**, menu, title, and a photo of artist art. To navigate the page, I used **sticky header(`position: sticky;`)** where I added a menu using the **list element`(<li>)`**. To get the menu button to work, I used the **HTML anchors**, also known as **`(<a>)`** element and **HTML links**. I used a **fragment identifier** also known as **id attribute(`id=""`)**. I link to them by putting the **ID(`id="home"`)** in the **href(`<a href="#home"></a>`)** attribute of another link. They make it easy to navigate around the **intra-page**.
 
-In the second section of the page,  called "About", I have a photo of the artist, and a short biography. I have also included a link to another website in this section, which was one of the requirements. I add picture with **image tag(`<img>`)**, usin a **external resource attribute(`src=""`)** and **alternate text(`alt=""`)**. For the link I used again a **`<a>`** tag with a **`href=""`** attribute specifies with the URL.
+- In the second section of the page,  called "About", I have a photo of the artist, and a short biography. I have also included a link to another website in this section, which was one of the requirements. I add picture with **image tag(`<img>`)**, usin a **external resource attribute(`src=""`)** and **alternate text(`alt=""`)**. For the link I used again a **`<a>`** tag with a **`href=""`** attribute specifies with the URL.
 
-In the third section of the page,  called "Gallery", there I have pictures with the artist's works. To display the photo on the website I used the **image element(`<img>`)** again, with **`src=""`** and **`alt=""`** attribute. I design it with layout mode called **Flexbox(`display: flex;`)**.
+- In the third section of the page,  called "Gallery", there I have pictures with the artist's works. To display the photo on the website I used the **image element(`<img>`)** again, with **`src=""`** and **`alt=""`** attribute. I design it with layout mode called **Flexbox(`display: flex;`)**.
 
-And in the last section of the page I have a **footer`(<footer>)`**. In the footer I added **JavaScript** with **`<script>`** element. Script element contains today’s date.
+- And in the last section of the page I have a **footer`(<footer>)`**. In the footer I added **JavaScript** with **`<script>`** element. Script element contains today’s date.
 
 All elements have their own **"id"** or **"class"**, which I used to style the web page in **CSS**.
 
