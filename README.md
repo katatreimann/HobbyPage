@@ -27,9 +27,9 @@ Let me start by telling you about the requirements I had to follow:
 * The page has a header element, and a footer element.
 * Somewhere on the page, the user can see today’s date. The date should always be correct. You’ll need to use JavaScript to generate the date, and DOM manipulation to display it.
 
-####Based on these requirements, I built my website. I put all my content on one page. See sample homepage in pictures below. 
+#### Based on these requirements, I built my website. I put all my content on one page. See sample homepage in pictures below. 
 
-####In the following, I will give you a brief overview of how I built my **HTML** file, where I stored all the content for this website:
+#### In the following, I will give you a brief overview of how I built my **HTML** file, where I stored all the content for this website:
 
 - In the first section of the page, called "Home", I have a **header`(<header>)`**, menu, title, and a photo of artist art. To navigate the page, I used **sticky header(`position: sticky;`)** where I added a menu using the **list element`(<li>)`**. To get the menu button to work, I used the **HTML anchors**, also known as **`(<a>)`** element and **HTML links**. I used a **fragment identifier** also known as **id attribute(`id=""`)**. I link to them by putting the **ID(`id="home"`)** in the **href(`<a href="#home"></a>`)** attribute of another link. They make it easy to navigate around the **intra-page**.
 
