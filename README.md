@@ -27,3 +27,4 @@ Let me start by telling you about the requirements I had to follow:
 * The page has a header element, and a footer element.
 * Somewhere on the page, the user can see today’s date. The date should always be correct. You’ll need to use JavaScript to generate the date, and DOM manipulation to display it.
 
+![Project Image](./images/virve.jpg)
