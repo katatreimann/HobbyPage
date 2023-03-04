@@ -27,10 +27,10 @@ Let me start by telling you about the requirements I had to follow:
 * The page has a header element, and a footer element.
 * Somewhere on the page, the user can see today’s date. The date should always be correct. You’ll need to use JavaScript to generate the date, and DOM manipulation to display it.
 
-Based on these requirements, I built my website. I put all my content on one page. To navigate the page, I used ####sticky header(position: sticky;)#### where I added a menu using the list element(img 1). 
+Based on these requirements, I built my website. I put all my content on one page. To navigate the page, I used sticky header(position: sticky;) where I added a menu using the list element(img 1). 
 
-1.
-![image](https://user-images.githubusercontent.com/117119598/222925017-92e005e6-e020-4565-8363-e36336c28df6.png)
+
+1. ![image](https://user-images.githubusercontent.com/117119598/222925017-92e005e6-e020-4565-8363-e36336c28df6.png)
 
 2.
 ![image](https://user-images.githubusercontent.com/117119598/222925253-dff33459-4a9d-4174-b0a6-0343b1803478.png)
