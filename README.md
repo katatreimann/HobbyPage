@@ -40,7 +40,7 @@ Let me start by telling you about the requirements I had to follow:
 
 ![image](https://user-images.githubusercontent.com/117119598/222925253-dff33459-4a9d-4174-b0a6-0343b1803478.png)
 
-<br>
+
 - In the third section of the page,  called "Gallery", there I have pictures with the artist's works. To display the photo on the website I used the **image element(`<img>`)** again, with **`src=""`** and **`alt=""`** attribute. I design it with layout mode called **Flexbox(`display: flex;`)**.
 
 ![image](https://user-images.githubusercontent.com/117119598/222925266-eda90ca7-a684-4bb7-ad42-e3c0730a2e6a.png)
