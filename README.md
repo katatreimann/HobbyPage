@@ -53,10 +53,12 @@ Let me start by telling you about the requirements I had to follow:
 All elements have their own **"id"** or **"class"**, which I used to style the web page in **CSS**.
 
 
-
+Ma arvan, et k]ik mis oli plaanis sai tehtud, kuid oli p'ris palju probleeme stiiliga
 
 
 ---
 
 ## References
+
+I've learned coding mainly through the website [https://teamtreehouse.com/](url)
 
