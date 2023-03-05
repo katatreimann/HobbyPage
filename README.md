@@ -7,7 +7,7 @@ ___
 ### Table of Contents
 
 - [Description](#description)
-- [How To Use](#how-to-use)
+- [Programming languages](#programming languages)
 - [References](#references)
 - [Summary](#Summary)
 - [Author Info](#author-info)
@@ -55,8 +55,21 @@ All elements have their own **"id"** or **"class"**, which I used to style the w
 
 ---
 
+## Programming languages I used
+
+- HTML
+- CSS
+- JavaScript
+
+
+---
+
 ## References
 
 I've learned coding mainly through the website [https://teamtreehouse.com/](url), their teaching style suited me most. But also got a lot of help from [https://www.w3schools.com/](url) site.
 
+
+---
+
+## Summary
 
