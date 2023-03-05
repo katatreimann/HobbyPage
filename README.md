@@ -73,3 +73,8 @@ I've learned coding mainly through the website [https://teamtreehouse.com/](url)
 
 ## Summary
 
+In this project, I found solutions to my design needs quite easily. The most challenging part was definitely JavaScript, which I still have to practice a lot.
+
+
+
+
