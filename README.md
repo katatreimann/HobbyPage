@@ -7,7 +7,7 @@ ___
 ### Table of Contents
 
 - [Description](#description)
-- [Programming languages](#programming languages)
+- [Programming languages I used](#programming languages I used)
 - [References](#references)
 - [Summary](#Summary)
 - [Author Info](#author-info)
