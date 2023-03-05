@@ -10,7 +10,7 @@ ___
 - [Programming languages I used](#programming languages i used)
 - [References](#references)
 - [Summary](#Summary)
-- [Author Info](#author-info)
+
 
 ---
 
