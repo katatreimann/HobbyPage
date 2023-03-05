@@ -35,17 +35,21 @@ Let me start by telling you about the requirements I had to follow:
 
 ![image](https://user-images.githubusercontent.com/117119598/222925017-92e005e6-e020-4565-8363-e36336c28df6.png)
 
+
 - In the second section of the page,  called "About", I have a photo of the artist, and a short biography. I have also included a link to another website in this section, which was one of the requirements. I add picture with **image tag(`<img>`)**, usin a **external resource attribute(`src=""`)** and **alternate text(`alt=""`)**. For the link I used again a **`<a>`** tag with a **`href=""`** attribute specifies with the URL.
 
 ![image](https://user-images.githubusercontent.com/117119598/222925253-dff33459-4a9d-4174-b0a6-0343b1803478.png)
+
 
 - In the third section of the page,  called "Gallery", there I have pictures with the artist's works. To display the photo on the website I used the **image element(`<img>`)** again, with **`src=""`** and **`alt=""`** attribute. I design it with layout mode called **Flexbox(`display: flex;`)**.
 
 ![image](https://user-images.githubusercontent.com/117119598/222925266-eda90ca7-a684-4bb7-ad42-e3c0730a2e6a.png)
 
+
 - And in the last section of the page I have a **footer`(<footer>)`**. In the footer I added **JavaScript** with **`<script>`** element. **Script element** contains today’s date.
 
 ![image](https://user-images.githubusercontent.com/117119598/222925300-2d7ffcbc-0c0d-4c4a-8d65-abe48e53b245.png)
+
 
 
 All elements have their own **"id"** or **"class"**, which I used to style the web page in **CSS**.
