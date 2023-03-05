@@ -60,5 +60,7 @@ Ma arvan, et k]ik mis oli plaanis sai tehtud, kuid oli p'ris palju probleeme sti
 
 ## References
 
-I've learned coding mainly through the website [https://teamtreehouse.com/](url)
+I've learned coding mainly through the website [https://teamtreehouse.com/](url), their teaching style suited me most. But also got a lot of help from [another](https://www.w3schools.com/) site.
+
+https://www.w3schools.com/
 
