@@ -9,7 +9,7 @@ ___
 - [Description](#description)
 - [How To Use](#how-to-use)
 - [References](#references)
-- [License](#license)
+- [Summary](#Summary)
 - [Author Info](#author-info)
 
 ---
@@ -53,14 +53,10 @@ Let me start by telling you about the requirements I had to follow:
 All elements have their own **"id"** or **"class"**, which I used to style the web page in **CSS**.
 
 
-Ma arvan, et k]ik mis oli plaanis sai tehtud, kuid oli p'ris palju probleeme stiiliga
-
-
 ---
 
 ## References
 
-I've learned coding mainly through the website [https://teamtreehouse.com/](url), their teaching style suited me most. But also got a lot of help from [another](https://www.w3schools.com/) site.
+I've learned coding mainly through the website [https://teamtreehouse.com/](url), their teaching style suited me most. But also got a lot of help from [https://www.w3schools.com/](url) site.
 
-https://www.w3schools.com/
 
