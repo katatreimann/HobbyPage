@@ -66,7 +66,7 @@ All elements have their own **"id"** or **"class"**, which I used to style the w
 
 ## References
 
-I've learned coding mainly through the website [https://teamtreehouse.com/](url), their teaching style suited me most. But also got a lot of help from [https://www.w3schools.com/](url) site.
+I've learned coding mainly through the website [https://teamtreehouse.com/](url), their teaching style works for me most. But also I got a lot of help from [https://www.w3schools.com/](url) site.
 
 
 ---
