@@ -5,21 +5,14 @@
 }
 
 body {
-    color: rgb(231, 16, 16);
+    color: rgb(0, 0, 0);
     font-family: Montserrat;
     background-color: #f0eeee;
     overflow-anchor: none;
 }
 
-.menubar {
-    align-items: center;
-    background-color: #ffffff;
-    margin-left: 10%;
-    margin-right: 10%;
-}
 
-
-/* menu base styles  */
+/* menu style  */
 
 header {
     top: 0;
@@ -29,11 +22,18 @@ header {
     z-index: 1;
 }
 
+.menubar {
+    align-items: center;
+    background-color: #ffffff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 #menu {
     text-decoration: none;
     text-align: center;
     color: #fff;
-    padding: 10px 30px;
+    padding: 15px 50px;
 }
 
 #menu:hover {
@@ -42,8 +42,8 @@ header {
 
 ul li {
     display: inline-block;
-    margin: 10px;
-    font-size: 20px;
+    margin: 15px 0px;
+    font-size: 25px;
 }
 
 
@@ -60,7 +60,7 @@ ul li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 90px;
+    font-size: 120px;
     color: #ffffff;
     text-shadow: 1px 1px 7px rgb(0, 0, 0);
     white-space: nowrap;
@@ -68,10 +68,10 @@ ul li {
 
 .subtitle {
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 25px;
+    font-size: 35px;
     color: #ffffff;
     text-shadow: 1px 1px 7px rgb(0, 0, 0);
     white-space: nowrap;
@@ -169,31 +169,34 @@ footer .container {
 
 
 
-
-
+/* media queries  */
 
 @media only screen and (max-width:800px) {
 
     /* For tablets: */
 
-    a {
-        padding: 5px 30px;
+    #menu {
+        padding: 12px 30px;
+    }
+    
+    ul li {
+        margin: 12px 0px;
+        font-size: 20px;
     }
 
-    ul li {
-        display: inline-block;
-        margin: 5px;
-        font-size: 15px;
+    a {
+        padding: 0px 2px;
     }
+
 
     .title {
-        font-size: 50px;
-        top: 30%;
+        font-size: 70px;
+        top: 37%;
     }
 
     .subtitle {
-        font-size: 15px;
-        top: 35%;
+        font-size: 25px;
+        top: 45%;
     }
 
 
@@ -210,24 +213,23 @@ footer .container {
         /* For mobile phones: */
         /* For tablets: */
 
-        a {
-            padding: 5px 30px;
+        #menu {
+            padding: 10px 20px;
         }
-
+        
         ul li {
-            display: inline-block;
-            margin: 5px;
-            font-size: 12px;
+            margin: 10px 0px;
+            font-size: 18px;
         }
 
         .title {
-            font-size: 30px;
-            top: 18%;
+            font-size: 45px;
+            top: 23%;
         }
-
+    
         .subtitle {
-            font-size: 10px;
-            top: 22%;
+            font-size: 15px;
+            top: 29%;
         }
 
         .portrait {
@@ -243,6 +245,84 @@ footer .container {
             width: 80%;
         }
 
+        #lastpic {
+            width: auto;
+            height: 200px;
+        }
+
 
     }
+}
+
+@media only screen and (max-width:300px) {
+
+    /* For mobile phones: */
+    /* For tablets: */
+
+    #menu {
+        padding: 6px 15px;
+    }
+    
+    ul li {
+        margin: 6px 0px;
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 30px;
+        top: 15%;
+    }
+
+    .subtitle {
+        font-size: 11px;
+        top: 19%;
+    }
+
+    .portrait {
+        width: 180px;
+        margin: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a {
+        padding: 0px 0px;
+    }
+
+
+    p {
+        text-align: center;
+        text-align: justify;
+        width: 80%;
+    }
+
+    .img-gallery {
+        width: auto;
+        height: 200px;
+        display: block;
+        margin: 10px;
+        background: #fff;
+        box-shadow: 0 0 10px rgb(192, 191, 191);
+        filter: grayscale();
+    }
+
+    #lastpic {
+        width: auto;
+        height: 100px;
+    }
+
+    footer .container {
+        letter-spacing: 1px;
+    }
+    
+    .copyright {
+        font-size: 10px;
+    }
+    
+    #current-date {
+        text-align: center;
+        font-size: 12px;
+    }
+
+}
 }
